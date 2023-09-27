@@ -1,0 +1,32 @@
+.nav-home-link,
+.nav-login-link {
+  padding: 2dvw;
+  font-size: larger;
+}
+ul {
+  list-style: none;
+}
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+.logo-budgetix {
+  width: 16dvw;
+  background-image: url(${logo});
+}
+.header {
+  display: flex;
+  max-width: 80dvw;
+}
+.title {
+  color: #eeefd3;
+  margin: auto;
+}
+@media (prefers-color-scheme: light) {
+  .title {
+    color: #63ab57;
+  }
+  .logo-budgetix {
+    background-image: url(${logoLight});
+  }
+}
